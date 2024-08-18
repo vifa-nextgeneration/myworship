@@ -10,9 +10,9 @@
 5. Move the previously renamed `ProPresenter` folder to `C:\Users\NXGN\Documents`.
 ### Restore `desktop.ini` System File Attribute
 Fourteen folders contain a `desktop.ini` file responsible for folder icons. To ensure Windows recognizes this file, perform the following steps for each occurrence:
-1. Open the `desktop.ini` file in Notepad. Press the \<Space> key once, followed by the \<Backspace> key.
+1. Open the `desktop.ini` file in Notepad. Press the <kbd>Space</kbd> key once, followed by the <kbd>Backspace</kbd> key.
 2. Open the Properties of the containing folder. Go to the "Customize" tab, then click "Change Icon" and click "OK".
-3. Simultaneously press the \<Enter> key in the Properties window and the <Ctrl + S> key in the Notepad window.
+3. Simultaneously press the <kbd>Enter</kbd> key in the Properties window and the <kbd>Ctrl</kbd>+<kbd>S</kbd> key in the Notepad window.
 ### Enable NTFS Long Paths
 Some folder names exceed the length supported by the default Windows configuration. To enable support for such folders, save the following code as a `.reg` file and open it:
   ```
